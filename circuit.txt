@@ -1,0 +1,61 @@
++-----------------------------------------------+
+|                  Smart Zone System             |
++-----------------------------------------------+
+|                +-------------------------+    |
+|                |     Arduino Board      |    |
+|                |                         |    |
+|                +-----+--------------+----+    |
+|                      |              |         |
+|           +----------+--------------+---------+
+|           |
+|           |            +-------------------------+
+|           |            |   RFID Module           |
+|           |            |                         |
+|           |            +-------------------------+
+|           |                             |
+|           |            +-------------------------+
+|           |            |  Motor Driver           |
+|           |            |                         |
+|           |            +-------------------------+
+|           |                             |
+|           |            +-------------------------+
+|           |            | RF Transmitter/Receiver  |
+|           |            |                         |
+|           |            +-------------------------+
+|           |                             |
+|           |            +-------------------------+
+|           |            | LEDs or Servo Motors     |
+|           |            |                         |
+|           |            +-------------------------+
+|           |
+|           |            +-------------------------+
+|           |            | Power Supply            |
+|           |            |                         |
+|           |            +-------------------------+
+|           |
++-----------+
+Arduino Board:
+
+Connect the RFID module using SPI (Serial Peripheral Interface) pins.
+Connect the motor driver to control motors.
+Connect the RF transmitter and receiver for communication.
+Connect LEDs or servo motors to represent signal functions.
+Provide power to the Arduino board.
+RFID Module:
+
+Connect the RFID module to the Arduino using SPI pins.
+Ensure power and ground connections.
+Motor Driver:
+
+Connect the motor driver to the Arduino for motor control.
+Connect motors or servo motors to the motor driver.
+RF Transmitter/Receiver:
+
+Connect the RF transmitter and receiver to the Arduino.
+Ensure power and ground connections.
+LEDs or Servo Motors:
+
+Connect LEDs or servo motors to the Arduino for signaling.
+Power Supply:
+
+Provide power to the Arduino and other components as needed.
